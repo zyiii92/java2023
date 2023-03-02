@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class A1113316_0224_2{
+	public static void main (String [] argv){
+		int t;
+		System.out.println("please input temperature = (C)");
+		Scanner myinput1= new Scanner(System.in);
+		t = myinput1.nextInt();
+		System.out.print("temperature =" +((t*9/5)+32));
+		System.out.println(" (F)");
+	}
+}
